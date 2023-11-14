@@ -17,6 +17,6 @@ function err(){
     notiferr.innerText = "Valid email required";
     err.classList.add("err");
 }else{
-    window.location.replace("news-letter-signup/page2.html?email=" + encodeURIComponent(input));
+    window.location.replace("/news-letter-signup/page2.html?email=" + encodeURIComponent(input));
 }
 }

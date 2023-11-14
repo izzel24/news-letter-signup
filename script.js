@@ -10,7 +10,7 @@ function err(){
     if(input === "" || correctformat === -1 ){
     notiferr.innerText = "Valid email required";
 }else{
-    window.location.replace("/page2.html")
+    window.location.replace("news-letter-signup/page2.html")
 }
 
 }
